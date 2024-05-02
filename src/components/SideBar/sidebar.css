@@ -1,0 +1,35 @@
+
+
+/* Sidebar.css */
+
+.sidebar {
+    width: 200px;
+    height: calc(100vh - 100px); 
+    position: fixed;
+    top: 100px; 
+    bottom: 0;
+    left: 10%; 
+    transform: translateX(-50%); 
+    background-color: #f6f0f0;
+    padding-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: block;
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background-color: #f9f8f8;
+  }
